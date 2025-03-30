@@ -1,0 +1,15 @@
+{
+  "name": "BTE Daily Inspiration",
+  "description": "Daily Bible verses and tech inspiration for Christian developers",
+  "version": "1.0",
+  "manifest_version": 3,
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://api.bible.com/*", "https://api.openai.com/*"],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
